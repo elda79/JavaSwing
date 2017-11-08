@@ -10,6 +10,8 @@ import java.awt.*;
  *
  * @author LAB05
  */
-public class VentanaSwing {
+//Heredar la clase desde JFrame
+public class VentanaSwing extends JFrame
+{
     
 }
