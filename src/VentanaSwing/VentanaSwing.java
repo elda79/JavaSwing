@@ -32,5 +32,12 @@ public class VentanaSwing extends JFrame
      ticket = new JCheckBox();
      seleccionar = new JRadioButton();
      
+     //Paso 6 - AGREGAR LOS ELEMENTOS
+     this.add(panel);//El this es para agregar el JPanel Al JFrame
+     panel.add(label);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(text);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(boton);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(ticket);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     panel.add(seleccionar);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
  }
 }
