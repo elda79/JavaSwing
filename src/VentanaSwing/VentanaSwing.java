@@ -39,5 +39,11 @@ public class VentanaSwing extends JFrame
      panel.add(boton);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      panel.add(ticket);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
      panel.add(seleccionar);//AQUI ESTAMOS AGREGANDO UN OBJETO AL PANEL
+     
+     //Paso 7 - PROPIEDADES DE LOS  OBJETOS O ELEMENTOS
+     label.setText("Nombre");
+     boton.setText("Enviar");
+     panel.setBackground(Color.green);//Color de fondo del JPanel
+     
  }
 }
