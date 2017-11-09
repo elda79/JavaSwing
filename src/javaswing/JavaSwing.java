@@ -19,9 +19,9 @@ public class JavaSwing {
     public static void main(String[] args) {
         // TODO code application logic here
         // Paso 9 - Llamado a la clase JFrame
-        VentanaSwing ventana = new VentanaSwing(); // Creo un objeto tipo Window
+        VentanaSwing ventana = new VentanaSwing(); // Creo un objeto tipo VentanaSwing
         ventana.setVisible(true);
-        ventana.setBounds(0, 0, 600, 600);
+        ventana.setBounds(0, 0, 600, 800);
         //La siguiente inst. le ppone titulo a la ventana
         ventana.setTitle("Mi primer interfaz grafica");
         

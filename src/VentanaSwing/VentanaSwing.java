@@ -21,7 +21,7 @@ public class VentanaSwing extends JFrame
  JCheckBox ticket;
  JRadioButton seleccionar;
  
- //Paso 4 - DEFINIR EL CONSTRUCTOR
+ // Paso 4 - DEFINIR EL CONSTRUCTOR
  public VentanaSwing()
  {
     // Paso 5 - CREAR E INICIALIZAR LOS OBJETOS O ELEMENTOS
