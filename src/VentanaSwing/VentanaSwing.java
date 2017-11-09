@@ -20,4 +20,17 @@ public class VentanaSwing extends JFrame
  JButton boton;
  JCheckBox ticket;
  JRadioButton seleccionar;
+ 
+ //Paso 4 - DEFINIR EL CONSTRUCTOR
+ public VentanaSwing()
+ {
+    // Paso 5 - CREAR E INICIALIZAR LOS OBJETOS O ELEMENTOS
+     panel = new JPanel();//Creo un objeto tipo JPanel
+     label = new JLabel();
+     text = new JTextField(20);// 20 es la cantidad de caracteres
+     boton = new JButton();
+     ticket = new JCheckBox();
+     seleccionar = new JRadioButton();
+     
+ }
 }
