@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package javaswing;
-
+// Paso 8 - IMPORTAR LA CLASE CON LA VENTANA
+import VentanaSwing.VentanaSwing;//import paquete.clase
+import javax.swing.JFrame;
 /**
  *
  * @author LAB05
