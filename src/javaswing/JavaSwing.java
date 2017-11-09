@@ -24,8 +24,9 @@ public class JavaSwing {
         ventana.setBounds(0, 0, 600, 600);
         //La siguiente inst. le ppone titulo a la ventana
         ventana.setTitle("Mi primer interfaz grafica");
-        //La siguiente sentencia es para finalizar el proyecto al cerrar
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+         //La siguiente sentencia es para finalizar el proyecto al cerrar
+         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
 }
